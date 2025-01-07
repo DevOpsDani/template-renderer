@@ -1,1 +1,4 @@
-
+typer
+jinja2
+pyyaml
+cfn-lint

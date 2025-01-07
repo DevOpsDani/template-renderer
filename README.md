@@ -11,12 +11,12 @@ Usage:
 ```python linter.py extract-values myjinja.yaml.j2```
  
 
-2. CloudFormation Linting
+3. CloudFormation Linting
 This option renders the template using the provided data file and performs CloudFormation linting.
 Usage:
 ```python linter.py cfn-lint data.yaml myjinja.yaml.j2```
  
-3. Generate a Rendered Template
+4. Generate a Rendered Template
 This option renders the Jinja template using the provided data file and generates a rendered output file.
 Usage:
 ```python linter.py generate-template data.yaml myfile```
